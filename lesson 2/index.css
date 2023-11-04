@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #3e5c88, #506e90, #668098, #7f92a0, #9aa3a8 );
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divan{
+    height: 100vh;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+}
+
+.divan h1{
+color: white;
+font-size: 28px;
+font-weight: 800;
+
+}
+.divan p{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}

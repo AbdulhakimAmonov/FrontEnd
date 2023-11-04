@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bmw {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.bmw:hover{
+    transform: scale(1.1);
+}
+
+.mers{  
+    width: 600px;
+    height: 400px; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+} 
+
+.mers:hover{
+    transform: translateX(180px);
+}  
+.audi{  
+    width: 600px;
+    height: 400px; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+} 
+
+.audi:hover{
+    transform: translateY(180px);
+}  
